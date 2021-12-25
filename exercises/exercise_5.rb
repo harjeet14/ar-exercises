@@ -12,5 +12,5 @@ total_revenue = Store.sum(:annual_revenue)
 average_revenue = Store.average(:annual_revenue)
 puts "Total revenue of all the stores is #{total_revenue}."
 puts "Average revenue of all the stores is #{average_revenue}"
-more_than_million_rev = Store.where("annual_revenue >= 1000000").size
+more_than_million_rev = Store.where("annual_revenue >= 1000000").count
 puts "Stores more than 1M revenue is #{more_than_million_rev}."
