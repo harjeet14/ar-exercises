@@ -19,13 +19,13 @@ puts "----------"
    last_name: "KAur", 
    hourly_rate: 50
 )
-@store3.employees.create(
+@store4.employees.create(
   first_name: "Rubani",
    last_name: "Kaur", 
    hourly_rate: 80
 )
-@store4.employees.create(
+@store5.employees.create(
   first_name: "Rone",
    last_name: "Keeth", 
-   hourly_rate: 60
+   hourly_rate: 100
 )
